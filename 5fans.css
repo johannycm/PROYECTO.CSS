@@ -1,0 +1,79 @@
+*{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0px;
+    font-family: "Poppins", sans-serif;
+}
+
+h1 {
+    font-size: 30px;
+    color: white;
+    margin: -100px 10px 50px 10px; 
+    text-align: center;
+    font-weight: bolder;
+}
+
+#logotipo {
+    width: 225px;
+    margin: 0px 0px 20px 20px; 
+}
+
+.boton {
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    font-family: "Poppins", sans-serif;
+    font-weight: normal;
+    text-decoration: none;
+    writing-mode: vertical-lr;
+    transform: rotate(180deg);
+}
+
+section {
+    display: grid;
+    place-items: end end;
+    margin: 5px 25px 5px 1400px;
+}
+
+ul {
+    list-style: none;
+    text-indent: 15px;
+}
+
+li:hover {
+    transform: scaleY(1.10);
+}
+button {
+    background-color: transparent;
+    border: none;
+    width: 1px;
+    margin: 10px 10px 10px 10px;
+}
+
+body {
+    background-image: url(./fondo\ fans.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+main {
+    color: white;
+    display: grid;
+    grid-template-columns: 300px 1fr 1fr 1fr 1fr;
+    margin: -480px 10px 10px 50px;
+    gap: auto;
+}   
+
+p {
+font-size: 15px;
+justify-content: center;
+text-align: justify;
+padding: 10px 60px 10px 10px;
+}
+
+.imagenes {
+    width: 280px;
+}
+
+.imagenes:hover {
+    transform: scaleY(1.02);
+}

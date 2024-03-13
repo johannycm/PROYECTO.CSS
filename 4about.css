@@ -1,0 +1,79 @@
+*{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0px;
+    font-family: "Poppins", sans-serif;
+}
+
+h1 {
+    font-size: 30px;
+    color: white;
+    text-align: start;
+    margin: 25px 0px 0px 10px;
+}
+
+button {
+    width: 50px;
+    background-color: transparent;
+    border: none;
+    margin: -100px 1px 5px 1270px; 
+}
+
+.boton {
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    font-family: "Poppins", sans-serif;
+    font-weight: normal;
+    text-decoration: none;
+    writing-mode: vertical-lr;
+    transform: rotate(180deg);
+}
+
+section {
+    display: grid;
+    place-items: end end;
+    margin: 5px 25px 5px 1400px;
+}
+
+ul {
+    list-style: none;
+    text-indent: 15px;
+}
+
+li:hover {
+    transform: scaleY(1.10);
+}
+
+body {
+    background-image: url(./fondo\ about.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 10px 1000px 50px 30px;
+}
+
+
+p {
+    color: white;
+    font-size: 19px;
+    display: grid;
+    justify-content: center;
+    text-align: justify;
+    margin: -500px 0px 0px 10px;
+}
+
+img {
+    width: 180px;
+}
+
+#imagenes {
+    width: 100px;
+    display: flex;
+    align-items: start;
+    gap: 10px;
+    margin: 50px 10px 10px 5px;
+}
+
+
+.imagenes:hover {
+    transform: translate(20px, 10px);
+}

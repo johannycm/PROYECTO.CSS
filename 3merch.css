@@ -1,0 +1,72 @@
+* {box-sizing: border-box;
+    padding: 0%;
+    margin: 0%;   
+    font-family: "Poppins", sans-serif;
+
+}
+
+button {
+    width: 50px;
+    background-color: transparent;
+    border: none;
+    margin: 0px 0px 20px 50px; 
+}
+
+nav {
+    align-items: center;
+}
+
+h1 {
+    font-size: 30px;
+    color: white;
+    margin: -70px 10px 5px 15px; 
+    text-align: center;
+    font-weight: bolder;
+
+}
+
+h2 {
+    font-size: 18px;
+    color: #ffffff;
+    margin: 5px;
+    text-align: center;
+    font-weight:normal ;
+}
+
+h3 {
+    font-size: 15px;
+    color: white;
+    margin: 0%;
+    text-align: center;
+    font-weight: lighter;
+
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    background-image: url(./fondo\ merch.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-content: center ;
+    gap: 10px;
+    padding: 20px
+
+}
+
+main {
+    display: grid;
+    grid-template-columns:300px 1fr 1fr 1fr 1fr;
+    place-items: center;
+}
+
+
+img {
+    width: 220px;
+}
+
+.imagenes:hover {
+    transform: translate(20px, 10px);
+}
